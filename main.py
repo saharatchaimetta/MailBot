@@ -175,11 +175,11 @@ with sync_playwright() as p:
                     # print("⏱️ รอ 5 วินาที ก่อนเช็คใหม่")
                     page.keyboard.press("Tab")
                     time.sleep(1)
-                    page.keyboard.type("bart8", delay=100)
+                    page.keyboard.type("your-username", delay=100)
                     page.keyboard.press("Tab")
                     time.sleep(1)
 
-                    page.keyboard.type("Arty82526/", delay=100)
+                    page.keyboard.type("your-password", delay=100)
                     page.keyboard.press("Enter")
                     time.sleep(1)
                     
@@ -375,4 +375,5 @@ with sync_playwright() as p:
         print("🧹 script จบการทำงาน")
         unlock_user_input(page)
         sys.exit(0)
+
 
